@@ -4,8 +4,9 @@ import vue from '@vitejs/plugin-vue'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [vue()],
-  base: '/Hana-Portofolio/', // Replace with your repository name
+  base: '/portofolio/', // Match with your repository name exactly
   build: {
-    outDir: 'dist'
+    outDir: 'dist',
+    assetsDir: 'assets'
   }
 })
