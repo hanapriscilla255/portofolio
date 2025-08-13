@@ -37,6 +37,82 @@
           </div>
         </div>
       </div>
+      
+      <div class="skills-section fade-in-up">
+        <h3>Key Skills</h3>
+        <div class="skills-grid">
+          <div class="skill-item fade-in-up">
+            <div class="skill-icon">💼</div>
+            <h4>Office Suite Software</h4>
+          </div>
+          <div class="skill-item fade-in-up">
+            <div class="skill-icon">⌨️</div>
+            <h4>Data Entry</h4>
+          </div>
+          <div class="skill-item fade-in-up">
+            <div class="skill-icon">📋</div>
+            <h4>Project Management</h4>
+          </div>
+          <div class="skill-item fade-in-up">
+            <div class="skill-icon">📊</div>
+            <h4>Project Monitoring & Evaluation</h4>
+          </div>
+          <div class="skill-item fade-in-up">
+            <div class="skill-icon">🧩</div>
+            <h4>Problem Solving</h4>
+          </div>
+          <div class="skill-item fade-in-up">
+            <div class="skill-icon">💬</div>
+            <h4>Communications</h4>
+          </div>
+          <div class="skill-item fade-in-up">
+            <div class="skill-icon">📝</div>
+            <h4>Report Writing</h4>
+          </div>
+          <div class="skill-item fade-in-up">
+            <div class="skill-icon">🎤</div>
+            <h4>Public Speaking</h4>
+          </div>
+        </div>
+      </div>
+      
+      <div class="volunteer-experience fade-in-up">
+        <h3>Volunteer Experience</h3>
+        <div class="volunteer-grid">
+          <div class="volunteer-item fade-in-up">
+            <div class="volunteer-icon">🎭</div>
+            <div class="volunteer-content">
+              <div class="volunteer-title">Pesparawi</div>
+              <div class="volunteer-description">Cultural & Arts Festival</div>
+              <div class="volunteer-year">2015</div>
+            </div>
+          </div>
+          <div class="volunteer-item fade-in-up">
+            <div class="volunteer-icon">📚</div>
+            <div class="volunteer-content">
+              <div class="volunteer-title">Asean Literary Festival</div>
+              <div class="volunteer-description">Literature & Cultural Exchange</div>
+              <div class="volunteer-year">2017</div>
+            </div>
+          </div>
+          <div class="volunteer-item fade-in-up">
+            <div class="volunteer-icon">🎨</div>
+            <div class="volunteer-content">
+              <div class="volunteer-title">COLORFUN</div>
+              <div class="volunteer-description">Community Art Event</div>
+              <div class="volunteer-year">2018</div>
+            </div>
+          </div>
+          <div class="volunteer-item fade-in-up">
+            <div class="volunteer-icon">⛪</div>
+            <div class="volunteer-content">
+              <div class="volunteer-title">Komisi Pemuda Remaja GKI Kwitang</div>
+              <div class="volunteer-description">Youth & Community Leadership</div>
+              <div class="volunteer-year">2017 - 2019</div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 </template>
@@ -48,43 +124,32 @@ export default {
     return {
       experiences: [
         {
-          position: 'Senior Voluntree Engagement Executive',
-          company: 'Voluntree Global',
-          period: '2022 - Present',
-          description: 'Leading volunteer engagement strategies across multiple programs, managing a portfolio of 15+ community partnerships and overseeing volunteer lifecycle management.',
+          position: 'Volunteer Engagement Executive',
+          company: 'National Office Wahana Visi Indonesia',
+          period: 'Jan 2023 - Present',
+          description: 'Manage all aspects of volunteering initiatives, overseeing the process from promotion and engagement to recruitment and completion.',
           achievements: [
-            'Increased volunteer retention rate by 45% through innovative engagement programs',
-            'Launched "Impact Connect" program, engaging 200+ new volunteers in 6 months',
-            'Developed volunteer matching algorithm improving placement success by 60%',
-            'Managed annual volunteer appreciation event for 500+ attendees'
+            'Maintain and update a comprehensive database of over 3000 volunteers, ensuring accurate records and effective communication',
+            'Coordinate and manage over 60 volunteer programs and activities per year',
+            'Engage with external partners (schools, universities, corporations, local and international donors) to develop and enhance volunteer programs',
+            'Design and implement volunteer programs at field, national, and regional levels for maximizing community impact',
+            'Develop content plans and production strategies to effectively promote volunteer opportunities and engage potential volunteers'
           ],
-          skills: ['Program Management', 'Data Analysis', 'Community Outreach', 'Event Planning']
+          skills: ['Volunteer Management', 'Stakeholder Engagement', 'Program Design', 'Content Strategy', 'Database Management']
         },
         {
-          position: 'Volunteer Coordination Specialist',
-          company: 'Community Impact Hub',
-          period: '2021 - 2022',
-          description: 'Coordinated volunteer activities for environmental and social justice initiatives, focusing on youth engagement and skill-based volunteering.',
+          position: 'Monitoring & Evaluation Coordinator',
+          company: 'SINERGI Phase II - Urban Jakarta Wahana Visi Indonesia',
+          period: 'Sep 2021 - Dec 2022',
+          description: 'Responsible for managing Disaster Preparedness projects funded by USAID within the scope of program monitoring and evaluation.',
           achievements: [
-            'Coordinated 25+ community clean-up events with 1,000+ participants',
-            'Established university partnership program engaging 150+ student volunteers',
-            'Created volunteer onboarding system reducing drop-out rate by 30%',
-            'Led cross-functional team of 8 coordinators across different programs'
+            'Report all necessary information to Manager level and work closely with them to achieve and maintain goals',
+            'Responsible for recording and processing more than 10,000 beneficiary databases and reporting to Manager Level',
+            'Conduct capacity assessments of existing monitoring and evaluation systems, explain indicators and monitoring strategies',
+            'Facilitate increasing internal capacity and working partners as part of monitoring and evaluating program activities',
+            'Engage with the youth in child-led research and advocacy across national and global levels'
           ],
-          skills: ['Project Coordination', 'Youth Engagement', 'Partnership Development', 'Training Design']
-        },
-        {
-          position: 'Community Outreach Assistant',
-          company: 'Local Heroes Foundation',
-          period: '2020 - 2021',
-          description: 'Supported community outreach initiatives and volunteer recruitment for local nonprofit organizations serving underserved communities.',
-          achievements: [
-            'Recruited and onboarded 100+ volunteers through innovative outreach campaigns',
-            'Organized monthly volunteer training workshops with 95% satisfaction rate',
-            'Developed social media strategy increasing volunteer applications by 80%',
-            'Created volunteer resource toolkit adopted by 5+ partner organizations'
-          ],
-          skills: ['Social Media Marketing', 'Volunteer Recruitment', 'Workshop Facilitation', 'Content Creation']
+          skills: ['Monitoring & Evaluation', 'Data Management', 'Capacity Building', 'Reporting', 'Youth Engagement']
         }
       ],
       certifications: [
@@ -336,6 +401,203 @@ export default {
   font-size: 0.9rem;
 }
 
+.skills-section {
+  margin-top: 4rem;
+  text-align: center;
+}
+
+.skills-section h3 {
+  font-size: 1.8rem;
+  color: #1a1a1a;
+  margin-bottom: 2rem;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.skill-item {
+  background: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(15px);
+  border-radius: 20px;
+  padding: 2rem 1rem;
+  box-shadow: 
+    0 10px 30px rgba(0, 0, 0, 0.08),
+    0 3px 12px rgba(75, 196, 226, 0.15),
+    inset 0 1px 0 rgba(255, 255, 255, 0.9);
+  border: 1px solid rgba(75, 196, 226, 0.15);
+  transition: all 0.3s ease;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.skill-item::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(135deg, rgba(75, 196, 226, 0.02) 0%, rgba(128, 217, 250, 0.02) 100%);
+  z-index: -1;
+}
+
+.skill-item::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(75, 196, 226, 0.1), transparent);
+  transition: left 0.6s ease;
+}
+
+.skill-item:hover::after {
+  left: 100%;
+}
+
+.skill-item:hover {
+  transform: translateY(-8px);
+  box-shadow: 
+    0 20px 40px rgba(0, 0, 0, 0.12),
+    0 5px 20px rgba(75, 196, 226, 0.2),
+    inset 0 1px 0 rgba(255, 255, 255, 1);
+  border-color: rgba(75, 196, 226, 0.25);
+}
+
+.skill-icon {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  background: linear-gradient(135deg, #4bc4e2 0%, #007cad 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  filter: drop-shadow(0 2px 4px rgba(75, 196, 226, 0.3));
+}
+
+.skill-item h4 {
+  color: #1a1a1a;
+  font-size: 1.1rem;
+  font-weight: 600;
+  line-height: 1.3;
+  margin: 0;
+}
+
+.volunteer-experience {
+  margin-top: 4rem;
+  text-align: center;
+}
+
+.volunteer-experience h3 {
+  font-size: 1.8rem;
+  color: #1a1a1a;
+  margin-bottom: 2rem;
+}
+
+.volunteer-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.volunteer-item {
+  background: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(15px);
+  border-radius: 20px;
+  padding: 2rem;
+  box-shadow: 
+    0 10px 30px rgba(0, 0, 0, 0.08),
+    0 3px 12px rgba(75, 196, 226, 0.15),
+    inset 0 1px 0 rgba(255, 255, 255, 0.9);
+  border: 1px solid rgba(75, 196, 226, 0.15);
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  text-align: left;
+  position: relative;
+  overflow: hidden;
+}
+
+.volunteer-item::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(135deg, rgba(75, 196, 226, 0.02) 0%, rgba(128, 217, 250, 0.02) 100%);
+  z-index: -1;
+}
+
+.volunteer-item::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(75, 196, 226, 0.1), transparent);
+  transition: left 0.6s ease;
+}
+
+.volunteer-item:hover::after {
+  left: 100%;
+}
+
+.volunteer-item:hover {
+  transform: translateY(-8px);
+  box-shadow: 
+    0 20px 40px rgba(0, 0, 0, 0.12),
+    0 5px 20px rgba(75, 196, 226, 0.2),
+    inset 0 1px 0 rgba(255, 255, 255, 1);
+  border-color: rgba(75, 196, 226, 0.25);
+}
+
+.volunteer-icon {
+  font-size: 2.5rem;
+  background: linear-gradient(135deg, #4bc4e2 0%, #007cad 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  filter: drop-shadow(0 2px 4px rgba(75, 196, 226, 0.3));
+  flex-shrink: 0;
+}
+
+.volunteer-content {
+  flex: 1;
+}
+
+.volunteer-title {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 0.3rem;
+  line-height: 1.3;
+}
+
+.volunteer-description {
+  font-size: 0.9rem;
+  color: #2ab0d5;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.volunteer-year {
+  font-size: 0.85rem;
+  color: #666;
+  background: rgba(75, 196, 226, 0.1);
+  padding: 0.2rem 0.8rem;
+  border-radius: 12px;
+  display: inline-block;
+  font-weight: 500;
+}
+
 @media (max-width: 768px) {
   .timeline::before {
     left: 20px;
@@ -361,6 +623,16 @@ export default {
   
   .cert-grid {
     grid-template-columns: 1fr;
+  }
+  
+  .volunteer-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .volunteer-item {
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
   }
 }
 </style>

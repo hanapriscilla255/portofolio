@@ -1,55 +1,8 @@
 <template>
   <footer class="footer">
     <div class="container">
-      <div class="footer-content">
-        <div class="footer-section">
-          <h3>Hana</h3>
-          <p>
-            Empowering communities through strategic volunteer engagement and meaningful partnerships.
-          </p>
-          <div class="footer-social">
-            <a href="#" class="social-icon">📘</a>
-            <a href="#" class="social-icon">🐦</a>
-            <a href="#" class="social-icon">📸</a>
-            <a href="#" class="social-icon">📧</a>
-          </div>
-        </div>
-        
-        <div class="footer-section">
-          <h4>Quick Links</h4>
-          <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </div>
-        
-        <div class="footer-section">
-          <h4>Services</h4>
-          <ul>
-            <li><a href="#">Volunteer Program Design</a></li>
-            <li><a href="#">Community Engagement Strategy</a></li>
-            <li><a href="#">Impact Measurement</a></li>
-            <li><a href="#">Partnership Development</a></li>
-          </ul>
-        </div>
-        
-        <div class="footer-section">
-          <h4>Get In Touch</h4>
-          <p>📍 San Francisco, CA</p>
-          <p>📧 hana.volunteer@email.com</p>
-          <p>📱 +1 (555) 123-4567</p>
-        </div>
-      </div>
-      
       <div class="footer-bottom">
         <p>&copy; 2025 Hana Portfolio. Crafted with ❤️ for community impact.</p>
-        <div class="footer-links">
-          <a href="#">Privacy Policy</a>
-          <a href="#">Terms of Service</a>
-        </div>
       </div>
     </div>
   </footer>

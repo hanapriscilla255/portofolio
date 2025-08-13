@@ -1,9 +1,9 @@
 <template>
   <section id="projects" class="section projects">
     <div class="container">
-      <h2 class="section-title fade-in-up">Featured Projects</h2>
+      <h2 class="section-title fade-in-up">International Conference & Project Experience</h2>
       <p class="section-subtitle fade-in-up">
-        Impactful initiatives that showcase my commitment to community engagement and volunteer empowerment
+        Global conferences and significant projects that demonstrate my commitment to international collaboration and community development
       </p>
       
       <div class="projects-grid">
@@ -44,8 +44,8 @@
       </div>
       
       <div class="projects-cta fade-in-up">
-        <h3>Want to see more projects?</h3>
-        <p>I'd love to share detailed case studies and outcomes from my portfolio of volunteer engagement initiatives.</p>
+        <h3>Want to learn more about these experiences?</h3>
+        <p>I'd love to share detailed insights about my international conference participation and project involvement, and discuss how these experiences can contribute to future initiatives.</p>
         <a href="#contact" class="btn">Let's Connect</a>
       </div>
     </div>
@@ -234,88 +234,74 @@ export default {
       currentPhotoIndex: 0,
       projects: [
         {
-          title: 'Impact Connect Program',
-          category: 'Volunteer Engagement',
-          date: '2023',
-          description: 'Comprehensive volunteer matching and engagement program that connects skilled volunteers with meaningful opportunities based on interests, skills, and availability.',
+          title: 'Global Platform for Disaster Risk Reduction (GPDRR)',
+          category: 'International Conference',
+          date: '2022',
+          description: 'Participated in the prestigious Global Platform for Disaster Risk Reduction conference in Bali, contributing to international discussions on disaster risk management and community resilience strategies.',
           impact: [
-            { value: '200+', label: 'Volunteers Matched' },
-            { value: '95%', label: 'Satisfaction Rate' },
-            { value: '60%', label: 'Improvement in Placements' }
+            { value: '500+', label: 'Global Participants' },
+            { value: '50+', label: 'Countries Represented' },
+            { value: '3 Days', label: 'Conference Duration' }
           ],
-          tags: ['Program Design', 'Data Analytics', 'User Experience', 'Impact Measurement'],
-          icon: '🤝',
+          tags: ['Disaster Risk Management', 'International Relations', 'Community Resilience', 'Policy Development'],
+          icon: '🌍',
           color: 'linear-gradient(135deg, #4bc4e2 0%, #007cad 100%)'
         },
         {
-          title: 'Green Warriors Community Initiative',
-          category: 'Environmental Action',
-          date: '2023',
-          description: 'Large-scale environmental volunteer program focusing on urban sustainability, community gardens, and climate action education across 10 neighborhoods.',
+          title: 'Youth for Education in Emergency Training',
+          category: 'Emergency Education',
+          date: '2022',
+          description: 'Comprehensive training program in Yogyakarta focused on education delivery during emergency situations, developing skills to maintain learning continuity in crisis scenarios.',
           impact: [
-            { value: '500+', label: 'Participants' },
-            { value: '25', label: 'Community Events' },
-            { value: '5,000kg', label: 'Waste Removed' }
+            { value: '40+', label: 'Training Hours' },
+            { value: '25+', label: 'Participants' },
+            { value: '95%', label: 'Completion Rate' }
           ],
-          tags: ['Environmental Impact', 'Community Mobilization', 'Event Planning', 'Partnership Building'],
-          icon: '🌱',
+          tags: ['Emergency Education', 'Crisis Management', 'Youth Development', 'Capacity Building'],
+          icon: '�',
           color: 'linear-gradient(135deg, #4ecdc4 0%, #44a08d 100%)'
         },
         {
-          title: 'Skills-Based Volunteering Platform',
-          category: 'Digital Innovation',
-          date: '2022',
-          description: 'Digital platform connecting professionals with nonprofits needing specific expertise, featuring project management tools and impact tracking.',
+          title: 'Rebranding WVI Volunteer Program',
+          category: 'Strategic Development',
+          date: '2023',
+          description: 'Led the comprehensive rebranding initiative for Wahana Visi Indonesia volunteer program, developing new visual identity, messaging strategy, and engagement framework.',
           impact: [
-            { value: '150+', label: 'Professionals' },
-            { value: '30+', label: 'Nonprofits Served' },
-            { value: '80%', label: 'Project Success Rate' }
+            { value: '100%', label: 'Brand Refresh' },
+            { value: '6 Months', label: 'Project Duration' },
+            { value: '3,000+', label: 'Volunteers Impacted' }
           ],
-          tags: ['Digital Strategy', 'Platform Development', 'Professional Networking', 'Nonprofit Support'],
-          icon: '💻',
+          tags: ['Brand Strategy', 'Visual Identity', 'Program Development', 'Stakeholder Engagement'],
+          icon: '�',
           color: 'linear-gradient(135deg, #f093fb 0%, #f5576c 100%)'
         },
         {
-          title: 'Youth Leadership Academy',
-          category: 'Youth Development',
-          date: '2022',
-          description: 'Comprehensive leadership development program for young volunteers, featuring mentorship, skill-building workshops, and real-world project experience.',
+          title: 'Hyundai JUMP School Indonesia',
+          category: 'Educational Partnership',
+          date: '2024 - Present',
+          description: 'Ongoing educational partnership project between Hyundai and Indonesian communities, focusing on skills development and educational access in Jakarta and Bogor regions.',
           impact: [
-            { value: '75', label: 'Young Leaders' },
-            { value: '12', label: 'Months Program' },
-            { value: '15+', label: 'Community Projects' }
+            { value: '2+', label: 'Cities Covered' },
+            { value: '200+', label: 'Students Reached' },
+            { value: '12+', label: 'Months Active' }
           ],
-          tags: ['Youth Engagement', 'Leadership Development', 'Mentorship', 'Capacity Building'],
-          icon: '🎯',
+          tags: ['Corporate Partnership', 'Education Access', 'Skills Development', 'Community Impact'],
+          icon: '🚀',
           color: 'linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%)'
         },
         {
-          title: 'Community Health Champions',
-          category: 'Health & Wellness',
-          date: '2021',
-          description: 'Health education and outreach program training volunteers to become community health advocates in underserved neighborhoods.',
+          title: 'Buku Cerita Anak Papua',
+          category: 'Cultural Project',
+          date: '2024',
+          description: 'Children book project focusing on Papuan culture and stories, bridging cultural understanding between Jakarta and Papua through literature and storytelling.',
           impact: [
-            { value: '120+', label: 'Health Champions' },
-            { value: '2,000+', label: 'People Reached' },
-            { value: '8', label: 'Communities Served' }
+            { value: '2', label: 'Regions Connected' },
+            { value: '1,000+', label: 'Books Distributed' },
+            { value: '50+', label: 'Schools Reached' }
           ],
-          tags: ['Health Education', 'Community Outreach', 'Volunteer Training', 'Public Health'],
-          icon: '❤️',
+          tags: ['Cultural Preservation', 'Literature', 'Children Development', 'Cross-Regional Collaboration'],
+          icon: '📖',
           color: 'linear-gradient(135deg, #a8edea 0%, #fed6e3 100%)'
-        },
-        {
-          title: 'Corporate Volunteer Partnership',
-          category: 'Corporate Engagement',
-          date: '2021',
-          description: 'Strategic partnership program with local businesses to create team-building volunteer opportunities that benefit both employees and communities.',
-          impact: [
-            { value: '12', label: 'Corporate Partners' },
-            { value: '300+', label: 'Employee Volunteers' },
-            { value: '$50K+', label: 'Community Investment' }
-          ],
-          tags: ['Corporate Partnerships', 'Team Building', 'Strategic Planning', 'Employee Engagement'],
-          icon: '🏢',
-          color: 'linear-gradient(135deg, #d299c2 0%, #fef9d7 100%)'
         }
       ]
     }
@@ -364,219 +350,145 @@ export default {
     
     getProjectPhotos(project) {
       const photos = {
-        'Impact Connect Program': [
+        'Global Platform for Disaster Risk Reduction (GPDRR)': [
           {
-            title: 'Volunteer Orientation Session',
-            date: 'March 2023',
-            location: 'Community Center Jakarta',
-            description: 'New volunteers receiving comprehensive training on engagement techniques and platform usage.',
+            title: 'Conference Opening Ceremony',
+            date: 'May 2022',
+            location: 'Bali International Convention Centre',
+            description: 'Opening ceremony of the Global Platform for Disaster Risk Reduction with international delegates and key speakers.',
             gradient: 'linear-gradient(135deg, #4bc4e2 0%, #007cad 100%)',
-            icon: '👥',
+            icon: '🌍',
             stats: [
-              { value: '45', label: 'New Volunteers' },
-              { value: '6hrs', label: 'Training Duration' }
+              { value: '500+', label: 'Delegates' },
+              { value: '50+', label: 'Countries' }
             ]
           },
           {
-            title: 'Skills Matching Workshop',
-            date: 'April 2023',
-            location: 'Tech Hub Bandung',
-            description: 'Interactive workshop where volunteers discover their strengths and get matched with suitable opportunities.',
+            title: 'Panel Discussion Session',
+            date: 'May 2022',
+            location: 'Main Conference Hall',
+            description: 'Participating in high-level panel discussions on disaster risk reduction strategies and community resilience.',
             gradient: 'linear-gradient(135deg, #2ab0d5 0%, #1a8cbc 100%)',
             icon: '🎯',
             stats: [
-              { value: '80%', label: 'Match Success' },
-              { value: '30', label: 'Organizations' }
+              { value: '8', label: 'Panel Sessions' },
+              { value: '150', label: 'Participants' }
             ]
           },
           {
-            title: 'Community Impact Celebration',
-            date: 'May 2023',
-            location: 'City Hall Surabaya',
-            description: 'Recognition ceremony celebrating the achievements of our volunteer program participants.',
+            title: 'Networking Reception',
+            date: 'May 2022',
+            location: 'Bali Conference Center',
+            description: 'International networking session connecting disaster risk reduction practitioners and policymakers.',
             gradient: 'linear-gradient(135deg, #80d9fa 0%, #4bc4e2 100%)',
-            icon: '🏆',
-            stats: [
-              { value: '200+', label: 'Volunteers' },
-              { value: '15', label: 'Awards Given' }
-            ]
-          },
-          {
-            title: 'Digital Platform Launch',
-            date: 'June 2023',
-            location: 'Innovation Hub Jakarta',
-            description: 'Official launch of our AI-powered volunteer matching platform with live demonstrations.',
-            gradient: 'linear-gradient(135deg, #007cad 0%, #2ab0d5 100%)',
-            icon: '🚀',
-            stats: [
-              { value: '500+', label: 'Registrations' },
-              { value: '24hrs', label: 'Launch Event' }
-            ]
-          }
-        ],
-        'Green Warriors Community Initiative': [
-          {
-            title: 'Beach Cleanup Campaign',
-            date: 'January 2023',
-            location: 'Ancol Beach Jakarta',
-            description: 'Large-scale beach cleanup involving volunteers from 10 different communities.',
-            gradient: 'linear-gradient(135deg, #4ecdc4 0%, #44a08d 100%)',
-            icon: '🏖️',
-            stats: [
-              { value: '300kg', label: 'Waste Collected' },
-              { value: '150', label: 'Volunteers' }
-            ]
-          },
-          {
-            title: 'Urban Forest Planting',
-            date: 'February 2023',
-            location: 'Gelora Bung Karno',
-            description: 'Community tree planting initiative to create green spaces in urban areas.',
-            gradient: 'linear-gradient(135deg, #52c41a 0%, #389e0d 100%)',
-            icon: '🌳',
-            stats: [
-              { value: '500', label: 'Trees Planted' },
-              { value: '200', label: 'Participants' }
-            ]
-          },
-          {
-            title: 'Eco-Education Workshop',
-            date: 'March 2023',
-            location: 'Schools Across Jakarta',
-            description: 'Environmental education workshops conducted in 15 schools to raise awareness about sustainability.',
-            gradient: 'linear-gradient(135deg, #73d13d 0%, #52c41a 100%)',
-            icon: '📚',
-            stats: [
-              { value: '1,200', label: 'Students' },
-              { value: '15', label: 'Schools' }
-            ]
-          },
-          {
-            title: 'Community Garden Project',
-            date: 'April 2023',
-            location: 'Neighborhood Communities',
-            description: 'Establishing community gardens in residential areas to promote local food production.',
-            gradient: 'linear-gradient(135deg, #95de64 0%, #73d13d 100%)',
-            icon: '🥬',
-            stats: [
-              { value: '8', label: 'Gardens Created' },
-              { value: '100', label: 'Families Involved' }
-            ]
-          }
-        ],
-        'Skills-Based Volunteering Platform': [
-          {
-            title: 'Platform Development Sprint',
-            date: 'August 2022',
-            location: 'Tech Office Jakarta',
-            description: 'Development team working intensively on the volunteer-nonprofit matching platform.',
-            gradient: 'linear-gradient(135deg, #4bc4e2 0%, #007cad 100%)',
-            icon: '💻',
-            stats: [
-              { value: '8', label: 'Developers' },
-              { value: '3 months', label: 'Development Time' }
-            ]
-          },
-          {
-            title: 'Beta Testing Session',
-            date: 'October 2022',
-            location: 'Coworking Space Bandung',
-            description: 'Nonprofits and volunteers testing the platform functionality and providing feedback.',
-            gradient: 'linear-gradient(135deg, #1890ff 0%, #096dd9 100%)',
-            icon: '🧪',
-            stats: [
-              { value: '25', label: 'Organizations' },
-              { value: '100', label: 'Test Users' }
-            ]
-          },
-          {
-            title: 'Training for Nonprofits',
-            date: 'November 2022',
-            location: 'NGO Coalition Office',
-            description: 'Comprehensive training sessions for nonprofit organizations on using the platform effectively.',
-            gradient: 'linear-gradient(135deg, #40a9ff 0%, #1890ff 100%)',
-            icon: '🎓',
-            stats: [
-              { value: '30', label: 'Organizations' },
-              { value: '12hrs', label: 'Training' }
-            ]
-          }
-        ],
-        'Youth Leadership Academy': [
-          {
-            title: 'Leadership Bootcamp',
-            date: 'September 2022',
-            location: 'Youth Center Yogyakarta',
-            description: 'Intensive leadership development program for young community activists.',
-            gradient: 'linear-gradient(135deg, #ff7a45 0%, #fa541c 100%)',
-            icon: '👑',
-            stats: [
-              { value: '50', label: 'Young Leaders' },
-              { value: '1 week', label: 'Intensive Program' }
-            ]
-          },
-          {
-            title: 'Community Project Launch',
-            date: 'December 2022',
-            location: 'Various Communities',
-            description: 'Young leaders implementing their first community impact projects with mentor support.',
-            gradient: 'linear-gradient(135deg, #ffa940 0%, #ff7a45 100%)',
-            icon: '🚀',
-            stats: [
-              { value: '25', label: 'Projects Started' },
-              { value: '75', label: 'Youth Involved' }
-            ]
-          }
-        ],
-        'Community Health Champions': [
-          {
-            title: 'Health Advocate Training',
-            date: 'July 2022',
-            location: 'Medical Training Center',
-            description: 'Training community members to become health advocates and educators in their neighborhoods.',
-            gradient: 'linear-gradient(135deg, #52c41a 0%, #389e0d 100%)',
-            icon: '⚕️',
-            stats: [
-              { value: '120', label: 'Advocates Trained' },
-              { value: '3 days', label: 'Training Duration' }
-            ]
-          },
-          {
-            title: 'Mobile Health Fair',
-            date: 'September 2022',
-            location: 'Rural Communities',
-            description: 'Mobile health units providing free health screenings and education in underserved areas.',
-            gradient: 'linear-gradient(135deg, #73d13d 0%, #52c41a 100%)',
-            icon: '🚐',
-            stats: [
-              { value: '800', label: 'People Screened' },
-              { value: '8', label: 'Villages Visited' }
-            ]
-          }
-        ],
-        'Corporate Volunteer Partnership': [
-          {
-            title: 'Corporate Team Building',
-            date: 'October 2022',
-            location: 'Various Corporate Offices',
-            description: 'Corporate teams participating in meaningful volunteer activities as team building exercises.',
-            gradient: 'linear-gradient(135deg, #722ed1 0%, #531dab 100%)',
-            icon: '🏢',
-            stats: [
-              { value: '12', label: 'Companies' },
-              { value: '300', label: 'Employees' }
-            ]
-          },
-          {
-            title: 'Skills Sharing Workshop',
-            date: 'November 2022',
-            location: 'Business District Jakarta',
-            description: 'Corporate professionals sharing expertise with nonprofit organizations and community groups.',
-            gradient: 'linear-gradient(135deg, #9254de 0%, #722ed1 100%)',
             icon: '🤝',
             stats: [
-              { value: '50', label: 'Professionals' },
-              { value: '20', label: 'Nonprofits' }
+              { value: '300+', label: 'Connections' },
+              { value: '3 Days', label: 'Event Duration' }
+            ]
+          }
+        ],
+        'Youth for Education in Emergency Training': [
+          {
+            title: 'Emergency Education Workshop',
+            date: 'August 2022',
+            location: 'Training Center Yogyakarta',
+            description: 'Intensive training on maintaining education continuity during emergency situations.',
+            gradient: 'linear-gradient(135deg, #4ecdc4 0%, #44a08d 100%)',
+            icon: '�',
+            stats: [
+              { value: '40', label: 'Training Hours' },
+              { value: '25', label: 'Participants' }
+            ]
+          },
+          {
+            title: 'Crisis Simulation Exercise',
+            date: 'August 2022',
+            location: 'Yogyakarta Training Facility',
+            description: 'Practical simulation exercises for emergency education response scenarios.',
+            gradient: 'linear-gradient(135deg, #52c41a 0%, #389e0d 100%)',
+            icon: '🚨',
+            stats: [
+              { value: '5', label: 'Scenarios' },
+              { value: '95%', label: 'Success Rate' }
+            ]
+          }
+        ],
+        'Rebranding WVI Volunteer Program': [
+          {
+            title: 'Brand Strategy Workshop',
+            date: 'March 2023',
+            location: 'WVI National Office Jakarta',
+            description: 'Strategic workshop developing new brand identity and messaging for the volunteer program.',
+            gradient: 'linear-gradient(135deg, #f093fb 0%, #f5576c 100%)',
+            icon: '🎨',
+            stats: [
+              { value: '6', label: 'Months Project' },
+              { value: '3,000+', label: 'Volunteers' }
+            ]
+          },
+          {
+            title: 'Brand Launch Event',
+            date: 'September 2023',
+            location: 'Jakarta Convention Center',
+            description: 'Official launch of the rebranded volunteer program with stakeholders and volunteers.',
+            gradient: 'linear-gradient(135deg, #ff85a2 0%, #f093fb 100%)',
+            icon: '🚀',
+            stats: [
+              { value: '200', label: 'Launch Attendees' },
+              { value: '100%', label: 'Brand Refresh' }
+            ]
+          }
+        ],
+        'Hyundai JUMP School Indonesia': [
+          {
+            title: 'Partnership Signing Ceremony',
+            date: 'January 2024',
+            location: 'Hyundai Office Jakarta',
+            description: 'Official partnership agreement signing between Hyundai and educational institutions.',
+            gradient: 'linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%)',
+            icon: '🤝',
+            stats: [
+              { value: '2', label: 'Cities' },
+              { value: '12+', label: 'Months Active' }
+            ]
+          },
+          {
+            title: 'Student Skills Workshop',
+            date: 'March 2024',
+            location: 'Various Schools Jakarta & Bogor',
+            description: 'Skills development workshops conducted across schools in Jakarta and Bogor regions.',
+            gradient: 'linear-gradient(135deg, #ffa940 0%, #ff7a45 100%)',
+            icon: '⚙️',
+            stats: [
+              { value: '200+', label: 'Students' },
+              { value: '15', label: 'Schools' }
+            ]
+          }
+        ],
+        'Buku Cerita Anak Papua': [
+          {
+            title: 'Story Collection Workshop',
+            date: 'June 2024',
+            location: 'Papua Cultural Center',
+            description: 'Cultural workshop collecting traditional Papuan stories for children book publication.',
+            gradient: 'linear-gradient(135deg, #a8edea 0%, #fed6e3 100%)',
+            icon: '�',
+            stats: [
+              { value: '20', label: 'Stories Collected' },
+              { value: '50', label: 'Cultural Elders' }
+            ]
+          },
+          {
+            title: 'Book Launch & Distribution',
+            date: 'October 2024',
+            location: 'Jakarta & Papua Schools',
+            description: 'Official book launch and distribution to schools across Jakarta and Papua regions.',
+            gradient: 'linear-gradient(135deg, #fed6e3 0%, #d6e7ff 100%)',
+            icon: '🎉',
+            stats: [
+              { value: '1,000+', label: 'Books' },
+              { value: '50+', label: 'Schools' }
             ]
           }
         ]
@@ -586,47 +498,40 @@ export default {
     
     getProjectAchievements(project) {
       const achievements = {
-        'Impact Connect Program': [
-          'Developed AI-powered matching algorithm',
-          'Increased volunteer retention by 45%',
-          'Created comprehensive onboarding system',
-          'Established partnerships with 25+ organizations',
-          'Trained 50+ program coordinators'
+        'Global Platform for Disaster Risk Reduction (GPDRR)': [
+          'Participated in high-level international discussions',
+          'Networked with 500+ global disaster risk professionals',
+          'Contributed to policy development frameworks',
+          'Gained expertise in international disaster management',
+          'Established connections across 50+ countries'
         ],
-        'Green Warriors Community Initiative': [
-          'Organized 25+ community clean-up events',
-          'Planted 1,000+ trees across neighborhoods',
-          'Created educational materials for schools',
-          'Established community composting program',
-          'Reduced local waste by 15%'
+        'Youth for Education in Emergency Training': [
+          'Completed 40+ hours of intensive emergency education training',
+          'Achieved 95% training completion rate',
+          'Developed crisis response skills for educational settings',
+          'Created emergency education protocols',
+          'Trained alongside 25+ professionals from across Indonesia'
         ],
-        'Skills-Based Volunteering Platform': [
-          'Built responsive web platform',
-          'Integrated project management tools',
-          'Created automated matching system',
-          'Developed impact tracking dashboard',
-          'Secured funding for platform expansion'
+        'Rebranding WVI Volunteer Program': [
+          'Led comprehensive brand strategy development',
+          'Created new visual identity and messaging framework',
+          'Impacted 3,000+ volunteers with new brand experience',
+          'Developed stakeholder engagement strategy',
+          'Successfully launched rebranded program within 6 months'
         ],
-        'Youth Leadership Academy': [
-          'Designed 12-month curriculum',
-          'Established mentorship network',
-          'Created leadership assessment tools',
-          'Launched scholarship program',
-          'Graduated 75 youth leaders'
+        'Hyundai JUMP School Indonesia': [
+          'Established educational partnerships across 2 major cities',
+          'Reached 200+ students with skills development programs',
+          'Developed sustainable corporate-education collaboration model',
+          'Created scalable program framework for expansion',
+          'Maintained active program for 12+ months'
         ],
-        'Community Health Champions': [
-          'Trained 120+ health advocates',
-          'Created multilingual resources',
-          'Established mobile health units',
-          'Organized health fairs in 8 communities',
-          'Improved health literacy by 30%'
-        ],
-        'Corporate Volunteer Partnership': [
-          'Secured partnerships with 12 companies',
-          'Designed team-building programs',
-          'Created impact measurement framework',
-          'Generated $50K+ in community investment',
-          'Engaged 300+ corporate volunteers'
+        'Buku Cerita Anak Papua': [
+          'Collected and preserved 20+ traditional Papuan stories',
+          'Distributed 1,000+ books across Jakarta and Papua',
+          'Reached 50+ schools with cultural education materials',
+          'Created bridge between Jakarta and Papua communities',
+          'Promoted cultural understanding through children literature'
         ]
       }
       return achievements[project.title] || []
@@ -634,17 +539,35 @@ export default {
     
     getProjectTimeline(project) {
       const timelines = {
-        'Impact Connect Program': [
-          { phase: 'Research & Planning', description: 'Market research and system design' },
-          { phase: 'Development', description: 'Algorithm development and platform build' },
-          { phase: 'Pilot Testing', description: 'Beta testing with 50 volunteers' },
-          { phase: 'Launch & Scale', description: 'Public launch and user acquisition' }
+        'Global Platform for Disaster Risk Reduction (GPDRR)': [
+          { phase: 'Pre-Conference Preparation', description: 'Research and preparation for international participation' },
+          { phase: 'Conference Participation', description: 'Active participation in panels and networking sessions' },
+          { phase: 'Knowledge Integration', description: 'Applying learnings to local disaster risk reduction initiatives' },
+          { phase: 'Follow-up Collaboration', description: 'Maintaining international connections and partnerships' }
         ],
-        'Green Warriors Community Initiative': [
-          { phase: 'Community Outreach', description: 'Identifying partner neighborhoods' },
-          { phase: 'Resource Mobilization', description: 'Securing funding and materials' },
-          { phase: 'Event Organization', description: 'Planning and executing clean-up events' },
-          { phase: 'Impact Assessment', description: 'Measuring environmental outcomes' }
+        'Youth for Education in Emergency Training': [
+          { phase: 'Training Registration', description: 'Application and selection for emergency education program' },
+          { phase: 'Intensive Training', description: '40+ hours of comprehensive emergency education training' },
+          { phase: 'Practical Application', description: 'Simulation exercises and real-world scenario practice' },
+          { phase: 'Certification & Implementation', description: 'Program completion and skill application' }
+        ],
+        'Rebranding WVI Volunteer Program': [
+          { phase: 'Brand Assessment', description: 'Analysis of current brand positioning and challenges' },
+          { phase: 'Strategy Development', description: 'Creating new brand identity and messaging framework' },
+          { phase: 'Design & Implementation', description: 'Visual identity creation and rollout planning' },
+          { phase: 'Launch & Monitoring', description: 'Brand launch and impact assessment' }
+        ],
+        'Hyundai JUMP School Indonesia': [
+          { phase: 'Partnership Development', description: 'Establishing collaboration framework with Hyundai' },
+          { phase: 'Program Design', description: 'Creating educational curriculum and delivery methods' },
+          { phase: 'Implementation', description: 'Rolling out programs across Jakarta and Bogor' },
+          { phase: 'Evaluation & Expansion', description: 'Assessing impact and planning for scale-up' }
+        ],
+        'Buku Cerita Anak Papua': [
+          { phase: 'Cultural Research', description: 'Collecting traditional Papuan stories and cultural elements' },
+          { phase: 'Content Development', description: 'Writing and illustrating children-friendly story books' },
+          { phase: 'Production & Publishing', description: 'Book production and quality assurance' },
+          { phase: 'Distribution & Impact', description: 'School distribution and community engagement' }
         ]
       }
       return timelines[project.title] || [
@@ -656,38 +579,35 @@ export default {
     
     getProjectDuration(project) {
       const durations = {
-        'Impact Connect Program': '18 months',
-        'Green Warriors Community Initiative': '12 months',
-        'Skills-Based Volunteering Platform': '15 months',
-        'Youth Leadership Academy': '24 months',
-        'Community Health Champions': '16 months',
-        'Corporate Volunteer Partnership': '20 months'
+        'Global Platform for Disaster Risk Reduction (GPDRR)': '3 days + follow-up',
+        'Youth for Education in Emergency Training': '2 weeks intensive',
+        'Rebranding WVI Volunteer Program': '6 months',
+        'Hyundai JUMP School Indonesia': '12+ months (ongoing)',
+        'Buku Cerita Anak Papua': '8 months'
       }
-      return durations[project.title] || '12 months'
+      return durations[project.title] || '6 months'
     },
     
     getTeamSize(project) {
       const teamSizes = {
-        'Impact Connect Program': '8-12 members',
-        'Green Warriors Community Initiative': '6-15 members',
-        'Skills-Based Volunteering Platform': '5-8 members',
-        'Youth Leadership Academy': '10-15 members',
-        'Community Health Champions': '12-20 members',
-        'Corporate Volunteer Partnership': '6-10 members'
+        'Global Platform for Disaster Risk Reduction (GPDRR)': 'Individual participation',
+        'Youth for Education in Emergency Training': '25 participants',
+        'Rebranding WVI Volunteer Program': '8-12 team members',
+        'Hyundai JUMP School Indonesia': '15-20 staff across regions',
+        'Buku Cerita Anak Papua': '10-15 collaborators'
       }
       return teamSizes[project.title] || '5-10 members'
     },
     
     getProjectBudget(project) {
       const budgets = {
-        'Impact Connect Program': '$75,000',
-        'Green Warriors Community Initiative': '$45,000',
-        'Skills-Based Volunteering Platform': '$60,000',
-        'Youth Leadership Academy': '$55,000',
-        'Community Health Champions': '$40,000',
-        'Corporate Volunteer Partnership': '$35,000'
+        'Global Platform for Disaster Risk Reduction (GPDRR)': 'Conference participation',
+        'Youth for Education in Emergency Training': 'Training program',
+        'Rebranding WVI Volunteer Program': '$25,000',
+        'Hyundai JUMP School Indonesia': '$45,000+',
+        'Buku Cerita Anak Papua': '$15,000'
       }
-      return budgets[project.title] || '$30,000+'
+      return budgets[project.title] || '$20,000+'
     }
   },
   

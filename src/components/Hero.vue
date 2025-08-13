@@ -4,14 +4,18 @@
     <div class="container">
       <div class="hero-content fade-in-up">
         <h1 class="hero-title">
-          Hi, I'm <span class="highlight">Hana</span>
+          Hi, I'm <span class="highlight">Hana Priscilla</span>
         </h1>
         <h2 class="hero-subtitle">
           Voluntree Engagement Executive
         </h2>
         <p class="hero-description">
-          Passionate about creating meaningful connections between volunteers and communities. 
-          I drive impactful engagement strategies that transform lives and build stronger societies.
+          A results-driven professional with 3 years of experience in project management. Proven
+          expertise in collaborating with diverse stakeholders, including local and international donors, as
+          well as national and global universities. Strong strategic planning, communication, and
+          organizational skills enable me to drive impactful initiatives and streamline operations.
+          Passionate about creating social change and empowering communities, I am eager to take on
+          new challenges to further develop my skills and contribute to meaningful, sustainable impact.
         </p>
         <div class="hero-stats">
           <div class="stat">
@@ -35,7 +39,7 @@
       <div class="hero-image fade-in-up">
         <div class="image-placeholder">
           <div class="profile-circle">
-            <span>🌟</span>
+            <img src="../assets/profil.jpeg" alt="Profile" class="profile-img" />
           </div>
         </div>
       </div>
@@ -72,7 +76,7 @@ export default {
   left: 0;
   right: 0;
   bottom: 0;
-  background: 
+  background:
     linear-gradient(135deg, #80d9fa 0%, #4bc4e2 50%, #007cad 100%);
   opacity: 0.03;
   z-index: -2;
@@ -85,7 +89,7 @@ export default {
   left: 0;
   right: 0;
   bottom: 0;
-  background: 
+  background:
     radial-gradient(circle at 30% 70%, rgba(75, 196, 226, 0.15) 0%, transparent 40%),
     radial-gradient(circle at 70% 30%, rgba(128, 217, 250, 0.1) 0%, transparent 40%),
     radial-gradient(circle at 50% 50%, rgba(42, 176, 213, 0.08) 0%, transparent 60%);
@@ -134,7 +138,7 @@ export default {
 }
 
 .hero-description {
-  font-size: 1.1rem;
+  font-size: 1.0rem;
   color: #666;
   line-height: 1.8;
   margin-bottom: 2rem;
@@ -205,6 +209,15 @@ export default {
   font-size: 4rem;
 }
 
+.profile-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  display: block;
+}
+
+
 .hero-scroll {
   position: absolute;
   bottom: 2rem;
@@ -231,10 +244,13 @@ export default {
 }
 
 @keyframes pulse {
-  0%, 100% {
+
+  0%,
+  100% {
     transform: scale(1);
     opacity: 0.3;
   }
+
   50% {
     transform: scale(1.1);
     opacity: 0.1;
@@ -242,12 +258,16 @@ export default {
 }
 
 @keyframes float {
-  0%, 100% {
+
+  0%,
+  100% {
     transform: translateY(0px) rotate(0deg);
   }
+
   33% {
     transform: translateY(-20px) rotate(120deg);
   }
+
   66% {
     transform: translateY(10px) rotate(240deg);
   }
@@ -258,6 +278,7 @@ export default {
     transform: translateY(0);
     opacity: 1;
   }
+
   100% {
     transform: translateY(20px);
     opacity: 0;
@@ -270,26 +291,26 @@ export default {
     text-align: center;
     gap: 2rem;
   }
-  
+
   .hero-title {
     font-size: 2.5rem;
   }
-  
+
   .hero-stats {
     justify-content: center;
   }
-  
+
   .hero-actions {
     justify-content: center;
     flex-direction: column;
     align-items: center;
   }
-  
+
   .image-placeholder {
     width: 250px;
     height: 250px;
   }
-  
+
   .profile-circle {
     width: 200px;
     height: 200px;
