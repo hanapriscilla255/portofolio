@@ -3,7 +3,7 @@
     <div class="container">
       <div class="nav-wrapper">
         <div class="logo">
-          <h2>Hana</h2>
+          <h2>Portofolio</h2>
         </div>
         
         <nav class="nav" :class="{ 'mobile-open': isMobileMenuOpen }">

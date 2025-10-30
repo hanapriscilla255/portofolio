@@ -4,33 +4,12 @@
     <div class="container">
       <div class="hero-content fade-in-up">
         <h1 class="hero-title">
-          Hi, I'm <span class="highlight">Hana Priscilla</span>
+          <span class="highlight">Hana Priscilla</span>
         </h1>
         <h2 class="hero-subtitle">
-          Volunteer Engagement Executive
+          Community Development | Monitoring & Evaluations Project | Branding & External Relations
         </h2>
-        <p class="hero-description">
-          A results-driven professional with 3 years of experience in project management. Proven
-          expertise in collaborating with diverse stakeholders, including local and international donors, as
-          well as national and global universities. Strong strategic planning, communication, and
-          organizational skills enable me to drive impactful initiatives and streamline operations.
-          Passionate about creating social change and empowering communities, I am eager to take on
-          new challenges to further develop my skills and contribute to meaningful, sustainable impact.
-        </p>
-        <div class="hero-stats">
-          <div class="stat">
-            <h3>500+</h3>
-            <p>Volunteers Engaged</p>
-          </div>
-          <div class="stat">
-            <h3>50+</h3>
-            <p>Projects Completed</p>
-          </div>
-          <div class="stat">
-            <h3>25+</h3>
-            <p>Community Partners</p>
-          </div>
-        </div>
+        
         <div class="hero-actions">
           <a href="#projects" class="btn">View My Work</a>
           <a href="#contact" class="btn btn-outline">Get In Touch</a>
@@ -62,7 +41,7 @@ export default {
 
 <style scoped>
 .hero {
-  min-height: 100vh;
+  min-height: 70vh;
   display: flex;
   align-items: center;
   position: relative;
@@ -114,6 +93,7 @@ export default {
   grid-template-columns: 1fr 1fr;
   gap: 4rem;
   align-items: center;
+  text-align: left;
 }
 
 .hero-title {
@@ -128,6 +108,7 @@ export default {
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
+  text-align: start;
 }
 
 .hero-subtitle {
