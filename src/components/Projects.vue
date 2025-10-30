@@ -750,7 +750,7 @@ export default {
 }
 
 .project-category {
-  background: #2ab0d5;
+  background: #1800ad;
   color: white;
   padding: 0.3rem 1rem;
   border-radius: 15px;
@@ -796,7 +796,7 @@ export default {
   display: block;
   font-size: 1.2rem;
   font-weight: 700;
-  color: #2ab0d5;
+  color: #1800ad;
 }
 
 .impact-item span {
@@ -812,7 +812,7 @@ export default {
 
 .tag {
   background: #e8f6fd;
-  color: #2ab0d5;
+  color: #1800ad;
   padding: 0.3rem 0.8rem;
   border-radius: 15px;
   font-size: 0.8rem;
@@ -939,7 +939,7 @@ export default {
 }
 
 .modal-category {
-  background: #2ab0d5;
+  background: #1800ad;
   color: white;
   padding: 0.3rem 1rem;
   border-radius: 15px;
@@ -969,7 +969,7 @@ export default {
 
 .modal-close:hover {
   background: rgba(75, 196, 226, 0.1);
-  color: #2ab0d5;
+  color: #1800ad;
 }
 
 .modal-body {
@@ -1082,7 +1082,7 @@ export default {
 
 .modal-tag {
   background: #e8f6fd;
-  color: #2ab0d5;
+  color: #1800ad;
   padding: 0.5rem 1rem;
   border-radius: 20px;
   font-size: 0.85rem;
@@ -1130,7 +1130,7 @@ export default {
 .impact-value {
   font-size: 1.5rem;
   font-weight: 700;
-  color: #2ab0d5;
+  color: #1800ad;
   margin-bottom: 0.3rem;
 }
 
@@ -1385,7 +1385,7 @@ export default {
 }
 
 .photo-modal-info .photo-date {
-  color: #2ab0d5;
+  color: #1800ad;
   font-weight: 600;
   font-size: 0.9rem;
 }
@@ -1426,7 +1426,7 @@ export default {
 .photo-stat strong {
   display: block;
   font-size: 1.2rem;
-  color: #2ab0d5;
+  color: #1800ad;
   font-weight: 700;
   margin-bottom: 0.25rem;
 }

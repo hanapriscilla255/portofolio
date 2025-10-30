@@ -1,45 +1,20 @@
 <template>
   <section id="about" class="section about">
     <div class="container">
-      <h2 class="section-title fade-in-up">About Me</h2>
+      <h2 class="section-title fade-in-up">ABOUT ME</h2>
       <p class="section-subtitle fade-in-up">
-        Passionate about creating meaningful change through strategic volunteer engagement and community empowerment
+        A results-driven professional with 3+ years of experience in project management and volunteer engagement.
+        Proven expertise in collaborating with diverse stakeholders, including local and international donors,
+        as well as national and global universities. Strong strategic planning, communication, and organizational
+        skills enable me to drive impactful initiatives and streamline operations. Passionate about creating social
+        change and empowering communities, I am eager to take on new challenges
+        to further develop my skills and contribute to meaningful, sustainable impact.
       </p>
-      
-      <div class="about-content">
-        <!-- Professional Overview -->
-        <div class="professional-overview fade-in-up">
-          <div class="overview-card">
-            <div class="overview-header">
-              <div class="profile-highlight">
-                <div class="profile-icon">🌟</div>
-                <div class="profile-info">
-                  <h3>Professional Summary</h3>
-                  <p class="title-highlight">Volunteer Engagement Executive</p>
-                </div>
-              </div>
-            </div>
-            
-            <div class="overview-content">
-              <p class="lead">
-                A results-driven professional with 3+ years of experience in project management and volunteer engagement.
-              </p>
-              <p>
-                Proven expertise in collaborating with diverse stakeholders, including local and international donors, 
-                as well as national and global universities. Strong strategic planning, communication, and organizational 
-                skills enable me to drive impactful initiatives and streamline operations.
-              </p>
-              <p>
-                Passionate about creating social change and empowering communities, I am eager to take on new challenges 
-                to further develop my skills and contribute to meaningful, sustainable impact.
-              </p>
-            </div>
-          </div>
-        </div>
 
+      <div class="about-content">
         <!-- Core Competencies -->
         <div class="competencies-section fade-in-up">
-          <h3 class="section-heading">Core Competencies</h3>
+          <h3 class="section-heading">CORE COMPETENCIES</h3>
           <div class="skills-grid">
             <div class="skill-card">
               <div class="skill-header">
@@ -51,7 +26,7 @@
                 <div class="level-bar" style="width: 95%"></div>
               </div>
             </div>
-            
+
             <div class="skill-card">
               <div class="skill-header">
                 <div class="skill-icon">📊</div>
@@ -62,7 +37,7 @@
                 <div class="level-bar" style="width: 90%"></div>
               </div>
             </div>
-            
+
             <div class="skill-card">
               <div class="skill-header">
                 <div class="skill-icon">💡</div>
@@ -73,7 +48,7 @@
                 <div class="level-bar" style="width: 88%"></div>
               </div>
             </div>
-            
+
             <div class="skill-card">
               <div class="skill-header">
                 <div class="skill-icon">🎯</div>
@@ -94,11 +69,11 @@
               <div class="value-icon">🎯</div>
               <h3>Mission</h3>
               <p>
-                To create sustainable volunteer engagement programs that empower individuals 
+                To create sustainable volunteer engagement programs that empower individuals
                 and transform communities through meaningful action and lasting partnerships.
               </p>
             </div>
-            
+
             <div class="value-card">
               <div class="value-icon">⭐</div>
               <h3>Core Values</h3>
@@ -132,9 +107,9 @@
               <h3>Beyond Work</h3>
             </div>
             <p>
-              When I'm not coordinating volunteer programs, you can find me exploring local 
-              community initiatives, attending nonprofit networking events, or mentoring young professionals 
-              in the social impact space. I'm passionate about sustainable development, continuous learning, 
+              When I'm not coordinating volunteer programs, you can find me exploring local
+              community initiatives, attending nonprofit networking events, or mentoring young professionals
+              in the social impact space. I'm passionate about sustainable development, continuous learning,
               and building bridges between communities across Indonesia and internationally.
             </p>
             <div class="interests">
@@ -193,15 +168,16 @@ export default {
 }
 
 .section-subtitle {
-  text-align: center;
   font-size: 1.2rem;
   color: #666;
-  max-width: 700px;
-  margin: -2rem auto 4rem;
+  max-width: 100%;
+  margin: 10px;
   line-height: 1.6;
+  text-align: justify;
 }
 
 .about-content {
+  margin-top: 4rem;
   display: flex;
   flex-direction: column;
   gap: 4rem;
@@ -315,7 +291,6 @@ export default {
   transform: translateX(-50%);
   width: 60px;
   height: 3px;
-  background: linear-gradient(135deg, #4bc4e2 0%, #007cad 100%);
   border-radius: 2px;
 }
 

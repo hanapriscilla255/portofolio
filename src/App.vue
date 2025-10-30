@@ -102,7 +102,6 @@ html {
   transform: translateX(-50%);
   width: 60px;
   height: 4px;
-  background: linear-gradient(135deg, #4bc4e2 0%, #007cad 100%);
   border-radius: 2px;
 }
 
@@ -114,7 +113,6 @@ html {
   transform: translateX(-50%);
   width: 20px;
   height: 4px;
-  background: linear-gradient(135deg, #80d9fa 0%, #4bc4e2 100%);
   border-radius: 2px;
 }
 

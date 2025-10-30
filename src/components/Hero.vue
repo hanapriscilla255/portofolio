@@ -23,13 +23,6 @@
         </div>
       </div>
     </div>
-    <div class="hero-scroll">
-      <a href="#about">
-        <div class="scroll-indicator">
-          <span></span>
-        </div>
-      </a>
-    </div>
   </section>
 </template>
 
