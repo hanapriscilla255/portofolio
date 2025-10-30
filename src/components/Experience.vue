@@ -122,7 +122,6 @@
 </template>
 
 <script>
-import project from './project.vue'
 export default {
   components: { project },
   name: 'Experience',
