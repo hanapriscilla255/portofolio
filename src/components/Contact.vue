@@ -32,13 +32,6 @@
                   <p>0813 1406 0586</p>
                 </div>
               </div>
-              <div class="contact-method left-align">
-                <div class="method-icon"><i class="bi bi-house"></i></div>
-                <div class="method-info">
-                  <h4>Location</h4>
-                  <p>Jl. Swadaya II, Sukamaju Baru, Kec. Tapos, Kota Depok, Jawa Barat 16455</p>
-                </div>
-              </div>
             </div>
 
             <div class="social-links">
@@ -46,9 +39,6 @@
               <div class="social-icons">
                 <a href="https://www.linkedin.com/in/hana-priscilla-849067172/" class="social-link">
                   <i class="bi bi-linkedin"></i> LinkedIn
-                </a>
-                <a href="https://www.instagram.com/hanapriscilla_?igsh=MWticnE3c2Z1ZGNudQ==" class="social-link">
-                  <i class="bi bi-instagram"></i> Instagram
                 </a>
               </div>
             </div>
@@ -407,6 +397,7 @@ export default {
 }
 
 .social-link {
+  width: 100%;
   display: flex;
   align-items: center;
   gap: 0.5rem;
@@ -417,6 +408,7 @@ export default {
   text-decoration: none;
   font-size: 0.9rem;
   transition: all 0.3s ease;
+  justify-content: center;
 }
 
 .social-link:hover {

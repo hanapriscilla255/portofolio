@@ -7,7 +7,7 @@
           Hi, I'm <span class="highlight">Hana Priscilla</span>
         </h1>
         <h2 class="hero-subtitle">
-          Voluntree Engagement Executive
+          Volunteer Engagement Executive
         </h2>
         <p class="hero-description">
           A results-driven professional with 3 years of experience in project management. Proven
