@@ -1,11 +1,12 @@
 <template>
-  <section id="projects" class="section projects">
+  <section  class="section projects">
     <div class="container">
       <h2 class="section-title fade-in-up">International Conference & Project Experience</h2>
       <p class="section-subtitle fade-in-up">
-        Global conferences and significant projects that demonstrate my commitment to international collaboration and community development
+        Global conferences and significant projects that demonstrate my commitment to international collaboration and
+        community development
       </p>
-      
+
       <div class="projects-grid">
         <div class="project-card fade-in-up" v-for="(project, index) in projects" :key="index">
           <div class="project-image">
@@ -19,37 +20,31 @@
               </div>
             </div>
           </div>
-          
+
           <div class="project-content">
             <div class="project-meta">
               <span class="project-category">{{ project.category }}</span>
               <span class="project-date">{{ project.date }}</span>
             </div>
-            
+
             <h3 class="project-title">{{ project.title }}</h3>
             <p class="project-description">{{ project.description }}</p>
-            
+
             <div class="project-impact">
               <div class="impact-item" v-for="impact in project.impact" :key="impact.label">
                 <strong>{{ impact.value }}</strong>
                 <span>{{ impact.label }}</span>
               </div>
             </div>
-            
+
             <div class="project-tags">
               <span v-for="tag in project.tags" :key="tag" class="tag">{{ tag }}</span>
             </div>
           </div>
         </div>
       </div>
-      
-      <div class="projects-cta fade-in-up">
-        <h3>Want to learn more about these experiences?</h3>
-        <p>I'd love to share detailed insights about my international conference participation and project involvement, and discuss how these experiences can contribute to future initiatives.</p>
-        <a href="#contact" class="btn">Let's Connect</a>
-      </div>
     </div>
-    
+
     <!-- Project Detail Modal -->
     <div v-if="selectedProject" class="modal-overlay" @click="closeModal">
       <div class="modal-container" @click.stop>
@@ -68,7 +63,7 @@
           </div>
           <button class="modal-close" @click="closeModal">&times;</button>
         </div>
-        
+
         <div class="modal-body">
           <div class="modal-content-grid">
             <div class="modal-main">
@@ -76,27 +71,24 @@
                 <h3>Project Overview</h3>
                 <p class="modal-description">{{ selectedProject.description }}</p>
               </div>
-              
+
               <div class="modal-section">
                 <h3>Key Achievements</h3>
                 <div class="modal-achievements">
-                  <div class="achievement-item" v-for="achievement in getProjectAchievements(selectedProject)" :key="achievement">
+                  <div class="achievement-item" v-for="achievement in getProjectAchievements(selectedProject)"
+                    :key="achievement">
                     <div class="achievement-icon">✓</div>
                     <span>{{ achievement }}</span>
                   </div>
                 </div>
               </div>
-              
+
               <div class="modal-section">
                 <h3>Activity Gallery</h3>
                 <div class="modal-gallery">
                   <div class="gallery-grid">
-                    <div 
-                      class="gallery-item" 
-                      v-for="(photo, index) in getProjectPhotos(selectedProject)" 
-                      :key="index"
-                      @click="openPhotoModal(photo, index)"
-                    >
+                    <div class="gallery-item" v-for="(photo, index) in getProjectPhotos(selectedProject)" :key="index"
+                      @click="openPhotoModal(photo, index)">
                       <div class="photo-placeholder" :style="{ background: photo.gradient }">
                         <div class="photo-icon">{{ photo.icon }}</div>
                       </div>
@@ -109,7 +101,7 @@
                   <p class="gallery-note">Click on any image to view details</p>
                 </div>
               </div>
-              
+
               <div class="modal-section">
                 <h3>Project Timeline</h3>
                 <div class="modal-timeline">
@@ -122,7 +114,7 @@
                   </div>
                 </div>
               </div>
-              
+
               <div class="modal-section">
                 <h3>Technologies & Methods</h3>
                 <div class="modal-tags">
@@ -130,7 +122,7 @@
                 </div>
               </div>
             </div>
-            
+
             <div class="modal-sidebar">
               <div class="modal-impact-card">
                 <h3>Project Impact</h3>
@@ -141,7 +133,7 @@
                   </div>
                 </div>
               </div>
-              
+
               <div class="modal-info-card">
                 <h3>Project Details</h3>
                 <div class="info-item">
@@ -161,7 +153,7 @@
                   <span class="status-active">Completed</span>
                 </div>
               </div>
-              
+
               <div class="modal-action-card">
                 <h3>Interested?</h3>
                 <p>Want to know more about this project or discuss similar initiatives?</p>
@@ -201,21 +193,14 @@
           </div>
         </div>
         <div class="photo-navigation">
-          <button 
-            class="nav-btn prev" 
-            @click="prevPhoto" 
-            :disabled="currentPhotoIndex === 0"
-          >
+          <button class="nav-btn prev" @click="prevPhoto" :disabled="currentPhotoIndex === 0">
             ← Previous
           </button>
           <span class="photo-counter">
             {{ currentPhotoIndex + 1 }} / {{ getCurrentProjectPhotos().length }}
           </span>
-          <button 
-            class="nav-btn next" 
-            @click="nextPhoto" 
-            :disabled="currentPhotoIndex === getCurrentProjectPhotos().length - 1"
-          >
+          <button class="nav-btn next" @click="nextPhoto"
+            :disabled="currentPhotoIndex === getCurrentProjectPhotos().length - 1">
             Next →
           </button>
         </div>

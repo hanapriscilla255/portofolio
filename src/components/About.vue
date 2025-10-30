@@ -61,65 +61,6 @@
             </div>
           </div>
         </div>
-
-        <!-- Mission & Values -->
-        <div class="values-section fade-in-up">
-          <div class="values-grid">
-            <div class="value-card primary">
-              <div class="value-icon">🎯</div>
-              <h3>Mission</h3>
-              <p>
-                To create sustainable volunteer engagement programs that empower individuals
-                and transform communities through meaningful action and lasting partnerships.
-              </p>
-            </div>
-
-            <div class="value-card">
-              <div class="value-icon">⭐</div>
-              <h3>Core Values</h3>
-              <ul class="values-list">
-                <li>
-                  <span class="value-point">Empowerment</span>
-                  <span class="value-desc">Enabling volunteers to reach their full potential</span>
-                </li>
-                <li>
-                  <span class="value-point">Impact</span>
-                  <span class="value-desc">Focusing on measurable, positive community outcomes</span>
-                </li>
-                <li>
-                  <span class="value-point">Inclusivity</span>
-                  <span class="value-desc">Welcoming diverse perspectives and backgrounds</span>
-                </li>
-                <li>
-                  <span class="value-point">Innovation</span>
-                  <span class="value-desc">Embracing new approaches to engagement</span>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-
-        <!-- Personal Touch -->
-        <div class="personal-section fade-in-up">
-          <div class="personal-card">
-            <div class="personal-header">
-              <div class="personal-icon">💫</div>
-              <h3>Beyond Work</h3>
-            </div>
-            <p>
-              When I'm not coordinating volunteer programs, you can find me exploring local
-              community initiatives, attending nonprofit networking events, or mentoring young professionals
-              in the social impact space. I'm passionate about sustainable development, continuous learning,
-              and building bridges between communities across Indonesia and internationally.
-            </p>
-            <div class="interests">
-              <span class="interest-tag">Community Development</span>
-              <span class="interest-tag">Sustainable Living</span>
-              <span class="interest-tag">Cultural Exchange</span>
-              <span class="interest-tag">Youth Mentoring</span>
-            </div>
-          </div>
-        </div>
       </div>
     </div>
   </section>
@@ -296,7 +237,7 @@ export default {
 
 .skills-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   gap: 2rem;
 }
 

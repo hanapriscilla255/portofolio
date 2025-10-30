@@ -4,7 +4,7 @@
     <div class="container">
       <div class="hero-content fade-in-up">
         <h1 class="hero-title">
-          <span class="highlight">Hana Priscilla</span>
+          <span class="highlight">HANA PRISCILLA</span>
         </h1>
         <h2 class="hero-subtitle">
           Community Development | Monitoring & Evaluations Project | Branding & External Relations
@@ -97,11 +97,12 @@ export default {
 }
 
 .highlight {
-  background: linear-gradient(135deg, #4bc4e2, #007cad);
+  background: black;
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
   text-align: start;
+  font-weight: bold;
 }
 
 .hero-subtitle {

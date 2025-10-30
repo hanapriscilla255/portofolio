@@ -26,6 +26,10 @@
           </div>
         </div>
       </div>
+
+      <div>
+        <project></project>
+      </div>
       
       <div class="certifications fade-in-up">
         <h3>Certifications & Training</h3>
@@ -118,7 +122,9 @@
 </template>
 
 <script>
+import project from './project.vue'
 export default {
+  components: { project },
   name: 'Experience',
   data() {
     return {
@@ -205,7 +211,7 @@ export default {
 
 .timeline {
   position: relative;
-  max-width: 800px;
+  max-width: 100%;
   margin: 0 auto;
 }
 
@@ -250,6 +256,7 @@ export default {
   border-left: 4px solid #4bc4e2;
   position: relative;
   transition: all 0.3s ease;
+  text-align: left;
 }
 
 .timeline-content::before {
