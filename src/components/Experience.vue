@@ -27,10 +27,6 @@
         </div>
       </div>
 
-      <div>
-        <project></project>
-      </div>
-      
       <div class="certifications fade-in-up">
         <h3>Certifications & Training</h3>
         <div class="cert-grid">
@@ -123,7 +119,6 @@
 
 <script>
 export default {
-  components: { project },
   name: 'Experience',
   data() {
     return {
